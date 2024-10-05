@@ -1,0 +1,79 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: figtree;
+}
+
+body {
+    background-color: hsl(47, 88%, 63%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    top: 80px;
+}
+
+main {
+    background-color: hsl(0, 0%, 100%);
+    border: solid;
+    border-width: 1px;
+    display: inline-block;
+    padding: 15px;
+    padding-right: 6px;
+    border-radius: 12px;
+    box-shadow: 5px 5px hsl(0, 0%, 7%);
+    
+}
+
+#main-image img {
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 320px;
+}
+
+#skill-level p {
+    display: inline-block;
+    background-color: hsl(47, 88%, 63%);
+    padding: 5px 10px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 3px;
+    color: hsl(0, 0%, 7%);
+}
+
+#date p {
+    font-size: 13px;
+    margin-top: 10px;
+    margin-bottom: 12px;
+    color: hsl(0, 0%, 7%);
+}
+
+#title p {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 15px;
+    color: hsl(0, 0%, 7%);
+}
+
+#desc p {
+    width: 330px;
+    font-size: 14.5px;
+    color: hsl(0, 0%, 42%);
+}
+
+#profile {
+    display: flex;
+    align-items: center;
+}
+
+#profile img {
+    width: 30px;
+    margin-top: 20px;
+}
+
+#profile p {
+    font-size: 14.5px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 20px;
+}
